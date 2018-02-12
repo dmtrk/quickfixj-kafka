@@ -1,8 +1,7 @@
-package dmtrk.quickfixj.kafka;
+package quickfix;
 
 import org.apache.kafka.common.serialization.IntegerSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
-import quickfix.*;
 
 /**
  * Created by dm on 02/11/2018.

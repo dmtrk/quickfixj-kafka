@@ -1,4 +1,4 @@
-package dmtrk.quickfixj.kafka;
+package quickfix;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
@@ -6,16 +6,14 @@ import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import quickfix.Log;
-import quickfix.SessionID;
 
 import java.io.Closeable;
 import java.util.Properties;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import static dmtrk.quickfixj.kafka.KafkaLogFactory.DEFAULT_KAFKA_LOG_KEY_SERIALIZER_CLASS;
-import static dmtrk.quickfixj.kafka.KafkaLogFactory.DEFAULT_KAFKA_LOG_VALUE_SERIALIZER_CLASS;
+import static quickfix.KafkaLogFactory.DEFAULT_KAFKA_LOG_KEY_SERIALIZER_CLASS;
+import static quickfix.KafkaLogFactory.DEFAULT_KAFKA_LOG_VALUE_SERIALIZER_CLASS;
 
 /**
  * Created by dm on 02/11/2018.

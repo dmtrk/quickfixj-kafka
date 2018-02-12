@@ -1,4 +1,4 @@
-package dmtrk.quickfixj.kafka;
+package quickfix;
 
 import java.io.IOException;
 
